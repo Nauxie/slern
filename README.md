@@ -1,5 +1,5 @@
 # slern
 http://slern.io/
 
-![Image](./image.png)
-Format: ![Screenshot](url)
+![Image](./web/image.png)
+
