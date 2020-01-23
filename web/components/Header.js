@@ -9,36 +9,17 @@ const Header = () => (
         <div className='outerdiv'>
             <div className='inner_outerdiv'>
                 <ul className='titlelogo'>
-                    <Link href='/'><a><li>slern.io</li></a></Link>
+                    <Link href='/'><a><li>slern</li></a></Link>
                 </ul>
                 <ul className='navigation'>
-                    <button className='header_button'><Link href='/about'><a><li>About</li></a></Link></button>
-                    <button className='header_button'><Link href='/signin'><a><li>Sign In</li></a></Link></button>
+                    <Link href='/about'><a className='right_link'><li>about</li></a></Link>
+                    <Link href='/signin'><a className='right_link'><li>sign in</li></a></Link>
                 </ul>
             </div>
         </div >
 
         <style jsx>{`
-        
-        .header_button {
-            background: white;
-            box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.3);
-            color: #62ADEF;
-            font-size: 20px;
-            font-weight: 500;
-            align-items: center;
-            border-radius: 21px;
-            margin
-            width: 120px;
-            font-weight: bold;
-            margin-left: 10px;
-        }
-        .header_button:hover {
-            background: #D3DBE1;
-        }
-        .header_button a{
-            color: #4DA6F4;
-        }
+    
         .outerdiv {
             width: 100%;
             height: 80px;
@@ -56,7 +37,6 @@ const Header = () => (
 
         .titlelogo {
             color: #9B85F6;
-            font-weight: bold;
             font-family: 'Arial';
             height: 100%;
             display: table;
@@ -70,7 +50,8 @@ const Header = () => (
             display: table;
             float: right;
             font-size: 30px;
-            color: #4DA6F4;
+            color: #4DA6F4;          
+            font-weight: 900;
           
         }
         .navigation {
@@ -84,7 +65,23 @@ const Header = () => (
             height: 100%;
             display: table;
             float: left;
-            padding: 0px 20px;
+            padding: 0px 10px;      
+            
+        }
+        .navigation li{
+            border-bottom: 1px solid #C0C9D0;
+            padding-bottom: 1px; 
+            font-size: 15px;
+            
+        }
+        .navigation li:hover{
+            border-bottom: 1px solid #4DA6F4;
+            padding-bottom: 1px; 
+            
+        }
+        .right_link {
+            color: #4DA6F4;
+            font-size: 20px;
         }
         a {
             text-decoration: none;

@@ -8,7 +8,7 @@ const Index = () => (
         <Header />
         <div className='tagline'>
             <p>
-                <span className='keyword'>for</span> <span className='variable'>cs_students</span> <span className='keyword'>by</span> <span className='variable'>cs_students</span>
+                <span className='keyword'>for</span> <span className='variable'>cs_student</span> <span className='keyword'>by</span> <span className='variable'>cs_students</span>
             </p>
 
         </div>

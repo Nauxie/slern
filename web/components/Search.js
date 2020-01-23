@@ -1,41 +1,41 @@
+import TypingCustom from '../components/TypingCustom'
+
 const Header = () => (
     <div id="cover">
         <form method="get" action="">
             <div class="tb">
                 <div class="td">
-                    <input type="text" placeholder="Try 'ICS 33'..."></input>
+                    <input type="text" placeholder="Try 'Regular expressions'..."></input>
                 </div>
-
             </div>
         </form>
         <style jsx>{`
-        
         .tb
         {
             display: table;
             width: 100%;
+            
         }
-        
         .td
         {
             display: table-cell;
             vertical-align: middle;
         }
         
-        input, button
+        input
         {
             color: #fff;
-            font-family: Nunito;
             padding: 0;
             margin: 0;
             border: 0;
             background-color: transparent;
+            outline: none;
         }
         
         #cover
         {
             position: absolute;
-            top: 50%;
+            top: 40%;
             left: 0;
             right: 0;
             width: 1050px;

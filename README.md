@@ -1,5 +1,5 @@
 # slern
 http://slern.io/
 
-![Image](./web/image.png)
+![Image](./web/image2.png)
 
